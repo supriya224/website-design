@@ -7,7 +7,7 @@ const Header = () => {
     <header className=''>
       <section className='mx-5 flex justify-between'>
         <Image src={LOGO} width={200} height={100} alt=''/>
-        <button className='bg-white text-xs text-black rounded-md items-center my-2 px-3 py-1' type='button'>
+        <button className='bg-white text-md text-black rounded-md items-center my-2 px-3 py-1' type='button'>
           Purchase Now
         </button>
       </section>

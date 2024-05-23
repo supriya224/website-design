@@ -12,12 +12,12 @@ const Visitors = () => {
           <h4 className="text-4xl font-bold">
             Turn Your Cursor Into A Colorful Magic Wand & Charm Your Visitors
           </h4>
-          <p>
+          <p className="text-md mt-2 ">
             Motion Art for Elementor is a groundbreaking plugin that empowers
             you to effortlessly infuse your website with visually stunning
             motion art elements. Purchase From Envato
           </p>
-          <button className=" bg-gradient-to-r from-indigo-800 to-[#ff6900]  py-5 px-9 rounded-2xl text-xl flex gap-5 text-center items-center">Purchase From Envato <ArrowRight/>    </button>
+          <button className="mt-3 bg-gradient-to-r from-indigo-800 to-[#ff6900]  py-5 px-9 rounded-2xl text-xl flex gap-5 text-center items-center">Purchase From Envato <ArrowRight/>    </button>
         </div>
       
         <div>
