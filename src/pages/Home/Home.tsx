@@ -13,6 +13,7 @@ const Home: React.FC = () => {
     <MainLayout>
       <section className="bg-[#0D051F] text-white h-full font-customFont    ">
         <div className="container mx-auto w-auto py-9">
+          {/* header */}
           <Header />
           {/* main section */}
           <div className="mx-5 flex flex-col md:flex-row lg:flex-row xl:flex-row md:gap-48 lg:gap-48 xl:gap-48  pt-24 ">
@@ -46,11 +47,16 @@ const Home: React.FC = () => {
           </div>
           {/* review section */}
           <Review />
+          {/*visitos section */}
           <Visitors />
+          {/* section page */}
           <SectionPage />
+          {/* support */}
           <Support />
+          {/* feature */}
           <Feature />
         </div>
+        {/* footer */}
         <Footer />
       </section>
     </MainLayout>
