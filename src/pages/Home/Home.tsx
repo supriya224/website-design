@@ -12,8 +12,6 @@ const Home: React.FC = () => {
   return (
     <MainLayout>
       <section className="bg-[#0D051F] text-white h-full font-customFont    ">
-      {/* <Component {...pageProps} /> */}
-      {/* <MouseHover /> */}
         <div className="container mx-auto w-auto py-9">
           <Header />
           {/* main section */}
@@ -54,7 +52,6 @@ const Home: React.FC = () => {
           <Feature />
         </div>
         <Footer />
-
       </section>
     </MainLayout>
   );

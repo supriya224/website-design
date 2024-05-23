@@ -1,12 +1,17 @@
 import MainLayout from "@/layouts/MainLayouts";
-import React from "react";
+import React, { useMemo } from "react";
 import IMG from "../../assets/motionarteffect-img9.png";
 import IMG1 from "../../assets/motionarteffect-img6.png";
 import IMG2 from "../../assets/motionarteffect-img7.png";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
-const Feature = () => {
-  const Features = [
+interface FeatureItem {
+  title: string;
+  img: StaticImageData;
+  tag: string;
+}
+const Feature: React.FC = () => {
+  const features: FeatureItem[] = useMemo(() => [
     {
       title: "Light Weight",
       img: IMG,
@@ -22,7 +27,7 @@ const Feature = () => {
       img: IMG2,
       tag: "Ensure a smooth experience for both applicants and administrators.",
     },
-  ];
+  ], []);
   return (
     <MainLayout>
       <section className="">
@@ -36,7 +41,7 @@ const Feature = () => {
             </p>
           </div>
           <div className="w-auto flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row gap-9 pt-3  ">
-          {Features.map((item, index) => {
+          {features.map((item, index) => {
             return (
               <div key={index} className="w-full ">
                 <div className=" w-full bg-gradient-to-b from-[#150b26]  to-[rgb(22,12,43)] rounded-xl shadow-inner shadow-gray-600 p-9 px-8 ">
