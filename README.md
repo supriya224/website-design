@@ -1,5 +1,3 @@
-# Motion Art for Elementor
-
 Motion Art for Elementor is a web project that showcases a responsive homepage with visually appealing design elements. While the current version does not include animations, it features a robust layout compatible with all devices.
 
 ## Table of Contents
