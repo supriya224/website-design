@@ -27,8 +27,8 @@ const Review = () => {
     <MainLayout>
       <section className="min-h-screnn my-9">
         <div className="mx-5 pb-12">
-        <h4 className="text-center text-4xl  font-bold py-9">Trusted by thousands of users around the world</h4>
-        <div className="flex flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row gap-12 justify-center">
+        <h4 className="text-center text-4xl font-bold py-9">Trusted by thousands of users around the world</h4>
+        <div className="flex flex-col gap-12 sm:flex-row md:flex-row lg:flex-row xl:flex-row md:gap-48 lg:gap-48 xl:gap-48  justify-center">
         {Review.map((item, index) => {
           return (
             <div key={index}>

@@ -30,10 +30,10 @@ const Home: React.FC = () => {
               <h4>With Motion Art Effect</h4>
             </div>
             <div className="w-full font-semibold leading-9">
-              <h4 className="text-7xl  ">
+              <h4 className="text-4xl md:text-7xl lg:text-7xl xl:text-7xl   ">
                 Attract Your Visitors Attention With Colorful
               </h4>
-              <h4 className="text-7xl text-indigo-700">
+              <h4 className="text-4xl md:text-7xl lg:text-7xl xl:text-7xl  text-indigo-700">
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F87516] from-90%  to-[ #5E11FF] to-100%">
                   Motion
                 </span>{" "}
