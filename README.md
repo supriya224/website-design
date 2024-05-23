@@ -1,5 +1,5 @@
 Motion Art for Elementor is a web project that showcases a responsive homepage with visually appealing design elements. While the current version does not include animations, it features a robust layout compatible with all devices.
-The website is live and accessible at [deploy]([https://website-design-nu.vercel.app/]).
+The website is live and accessible at [deploy](https://website-design-nu.vercel.app/).
 
 ## Table of Contents
 
