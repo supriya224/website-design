@@ -26,20 +26,20 @@ const Feature = () => {
   return (
     <MainLayout>
       <section className="">
-        <div className="my-9">
+        <div className="my-9 mx-5">
           <div>
             <h4 className="text-4xl text-center">An All-Round Plugin With Powerful Features</h4>
-            <p className="text-center px-96 py-12">
+            <p className="text-center py-3">
               Whether you are a seasoned web designer or just starting out,
               Motion Art for Elementor seamlessly integrates with the Elementor
               platform, providing you with a seamless and intuitive experience.
             </p>
           </div>
-          <div className="flex gap-9 ">
+          <div className="w-auto flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row gap-9  ">
           {Features.map((item, index) => {
             return (
-              <div key={index} className="w-full">
-                <div className="w-full bg-gradient-to-b from-[#150b26]  to-[rgb(22,12,43)] rounded-xl shadow-inner shadow-gray-600 p-9 px-8 ">
+              <div key={index} className="w-full ">
+                <div className=" w-full bg-gradient-to-b from-[#150b26]  to-[rgb(22,12,43)] rounded-xl shadow-inner shadow-gray-600 p-9 px-8 ">
                 <Image src={item.img} width={200} height={200} alt="" />
                 <h3 className="text-2xl">{item.title}</h3>
                 <h3 className="text-gray-400 pt-2">{item.tag}</h3>

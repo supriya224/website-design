@@ -26,13 +26,13 @@ const Review = () => {
   return (
     <MainLayout>
       <section className="min-h-screnn my-9">
-        <div className=" pb-12">
+        <div className="mx-5 pb-12">
         <h4 className="text-center text-lg font-bold py-9">Trusted by thousands of users around the world</h4>
-        <div className="flex gap-48">
+        <div className="flex flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row gap-12 justify-center">
         {Review.map((item, index) => {
           return (
             <div key={index}>
-              <div className="  mx-auto flex justify-center items-center text-center gap-6">
+              <div className="mx-auto flex justify-center items-center text-center gap-6">
                 <Image src={item.img} width={100} height={100} alt="" />
                 <div>
                   <Image  src={Star} alt="" />

@@ -4,10 +4,10 @@ import LOGO from "../../assets/MotionArtEffect-logo.png"
 
 const Header = () => {
   return (
-    <header className=''>
-      <section className='flex justify-between min-h-9'>
+    <header className='sm:bg-pink-300 md:bg-cyan-500 lg:bg-blue-800 xl:bg-teal-700'>
+      <section className='mx-5 flex justify-between'>
         <Image src={LOGO} width={200} height={100} alt=''/>
-        <button className='bg-white text-lg text-black  rounded-md px-5 py-3' type='button'>
+        <button className='bg-white text-xs text-black rounded-md items-center my-2 px-3 py-1' type='button'>
           Purchase Now
         </button>
       </section>

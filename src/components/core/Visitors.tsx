@@ -7,8 +7,8 @@ import {ArrowRight} from "react-feather"
 const Visitors = () => {
   return (
     <MainLayout>
-      <section className="min-h-auto flex justify-between leading-8 py-12">
-        <div className="w-2/4">
+      <section className="min-h-auto mx-5 flex flex-col  justify-center sm:flex-row sm:justify-between md:flex-row md:justify-between lg:flex-row lg:justify-between xl:flex-row xl:justify-between  leading-8 py-12">
+        <div className="px-2 lg:w xl:w-1/2">
           <h4 className="text-4xl font-bold">
             Turn Your Cursor Into A Colorful Magic Wand & Charm Your Visitors
           </h4>

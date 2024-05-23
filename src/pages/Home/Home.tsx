@@ -11,28 +11,30 @@ import React from "react";
 const Home: React.FC = () => {
   return (
     <MainLayout>
-      <section className="bg-[#0D051F] text-white h-full ">
+      <section className="bg-[#0D051F] text-white h-full font-customFont    ">
+      {/* <Component {...pageProps} /> */}
+      {/* <MouseHover /> */}
         <div className="container mx-auto w-auto py-9">
           <Header />
           {/* main section */}
-          <div className="flex gap-48 pt-24">
-            <div className="w-2/1">
+          <div className="mx-5 flex flex-col md:flex-row lg:flex-row xl:flex-row md:gap-48 lg:gap-48 xl:gap-48  pt-24 ">
+            <div className="xl:w-1/2 ">
               <h4 className="text-lg text-indigo-700 flex gap-2 font-bold">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ff6900]  to-indigo-800">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F87516] from-90%  to-[ #5E11FF] to-100%">
                   Transform
                 </span>
                    your
-                  Website
+                  Website                                     
               </h4>
 
               <h4>With Motion Art Effect</h4>
             </div>
-            <div className="w-1/2 font-semibold leading-9">
+            <div className="w-full font-semibold leading-9">
               <h4 className="text-7xl  ">
                 Attract Your Visitors Attention With Colorful
               </h4>
               <h4 className="text-7xl text-indigo-700">
-                <span className="  text-transparent bg-clip-text bg-gradient-to-r from-[#ff6900]  to-indigo-800">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F87516] from-90%  to-[ #5E11FF] to-100%">
                   Motion
                 </span>{" "}
                 Art Effect
