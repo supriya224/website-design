@@ -51,6 +51,8 @@ To run this project locally, follow these steps:
     http://localhost:3000
     ```
 ##screenshot
+<img width="1440" alt="Screenshot 2024-05-23 at 9 04 43 PM" src="https://github.com/supriya224/website-design/assets/52038704/7a5c23bc-150d-437b-8b76-caf8799d2939">
+<img width="1440" alt="Screenshot 2024-05-23 at 9 05 13 PM" src="https://github.com/supriya224/website-design/assets/52038704/2c770237-f7ac-4fcd-9ede-67994e14fd10">
 
 
 ## Usage
