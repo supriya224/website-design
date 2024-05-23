@@ -17,7 +17,7 @@ const Visitors = () => {
             you to effortlessly infuse your website with visually stunning
             motion art elements. Purchase From Envato
           </p>
-          <button className=" bg-gradient-to-r from-[#ff6900] to-indigo-800 py-5 px-9 rounded-2xl text-xl flex gap-5 text-center items-center">Purchase From Envato <ArrowRight/>    </button>
+          <button className=" bg-gradient-to-r from-indigo-800 to-[#ff6900]  py-5 px-9 rounded-2xl text-xl flex gap-5 text-center items-center">Purchase From Envato <ArrowRight/>    </button>
         </div>
       
         <div>
